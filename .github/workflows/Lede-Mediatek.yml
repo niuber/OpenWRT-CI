@@ -1,5 +1,5 @@
 #CI项目名
-name: Lede-mediatek
+name: Lede-Mediatek
 
 on:
   #自动编译：每天早上4点
