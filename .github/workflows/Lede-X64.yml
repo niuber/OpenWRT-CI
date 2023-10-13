@@ -2,9 +2,9 @@
 name: Lede-X64
 
 on:
-  #自动编译：每天早上4点
+  #自动编译：每天周六0点
   schedule:
-    - cron: 0 5 * * *
+    - cron: 0 0 * * 6
   #手动编译
   workflow_dispatch:
 
