@@ -130,6 +130,12 @@ jobs:
           du -h --max-depth=1
           echo "======================="
 
+      - name : Upload artifact
+        uses: actions/upload-artifact@master
+        with:
+            name: OpenWrt_firmware
+            path: bin/targets/
+          
       - name: Package Firmware
         run: |
           cd ./owrt && mkdir ./upload
