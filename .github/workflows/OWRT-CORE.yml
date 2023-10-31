@@ -134,7 +134,7 @@ jobs:
         uses: actions/upload-artifact@master
         with:
             name: OpenWrt_firmware
-            path: bin/targets/
+            path: .bin/targets/
           
       - name: Package Firmware
         run: |
