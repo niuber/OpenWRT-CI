@@ -1,7 +1,7 @@
 #CI项目名
 name: Lede-Newifid2
 
-on:
+#on:
   #自动编译：每天周六0点
   schedule:
     - cron: 0 0 * * 6
